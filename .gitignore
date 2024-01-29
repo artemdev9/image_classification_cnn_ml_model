@@ -1,0 +1,17 @@
+test_ml_model_images/
+old_images/
+new_images/
+images/
+documentation/
+bdcm_convnn.py
+bdcm_covnn.ipynb
+bdcm_convnn_old.ipynb
+test_ml_model.ipynb
+.ipynb_checkpoints
+bdcm_conv_nn_website/__pycache__/
+bdcm_conv_nn_website/.vscode/
+bdcm_conv_nn_website/venv/
+bdcm_conv_nn_website/.gcloudignore
+bdcm_conv_nn_website/app.yaml
+bdcm_conv_nn_website/Procfile
+bdcm_conv_nn_website/.gitignore
