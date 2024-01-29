@@ -10,7 +10,6 @@ I decided to use Convolutional Neural Networks (CNN) because they excel in image
 - [Data Preprocessing](#data-preprocessing)
 - [Model Design](#model-design)
 - [Training the Model](#training-the-model)
-- [Using the Model](#using-the-model)
 - [Possible Improvements](#possible-improvements)
 
 ## Installation
