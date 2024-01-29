@@ -11,7 +11,7 @@ I decided to use Convolutional Neural Networks (CNN) because they excel in image
 - [Model Design](#model-design)
 - [Training the Model](#training-the-model)
 - [Using the Model](#using-the-model)
-- [Contributing](#contributing)
+- [Possible Improvements](#possible-improvements)
 
 ## Installation
 
