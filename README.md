@@ -231,14 +231,8 @@ model.fit(x_train, y_train_categorical, batch_size=64, epochs=100, validation_sp
 
 ### Final Accuracy: 94% - 98%
 
-## Contributing
-Invite others to contribute and explain how they can do so. This might include:
-- Reporting issues.
-- Suggesting new features or improvements.
-- Guidelines for submitting pull requests.
+## Possible Improvements
 
-## Additional Notes
-- Mention your process of adding more images to the dataset.
-- Discuss challenges faced, such as dealing with images not conforming to labels, and how you addressed them.
-- Reflect on the model's performance and potential areas for improvement.
+Model Complexity: Experimenting with the addition or adjustment of layers in the CNN architecture might capture more complex features and improve accuracy.
 
+Transfer Learning: Leveraging pre-trained models as a starting point can increase performance, especially when dealing with limited training data.
