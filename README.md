@@ -35,7 +35,7 @@ model.save('model_name.keras')
 
 ### Step 4
 ```bash
-# you have to be in the ..\image_classification_cnn_ml_model-main\bdcm_conv_nn_website directory
+# you have to be in the ..\bdcm_conv_nn_website directory
 pip install requirements.txt
 ```
 Load your model if you have made one. Pay attention to the file path. If you didn't train the model leave code as is.  
@@ -46,7 +46,7 @@ model = load_model('./model_name.keras')
 ### Step 5 
 Run the flask app and make predictions.
 ```bash
-# you have to be in the ..\image_classification_cnn_ml_model-main\bdcm_conv_nn_website directory
+# you have to be in the ..\bdcm_conv_nn_website directory
 flask run
 ```
 
@@ -231,14 +231,8 @@ model.fit(x_train, y_train_categorical, batch_size=64, epochs=100, validation_sp
 
 ### Final Accuracy: 94% - 98%
 
-## Contributing
-Invite others to contribute and explain how they can do so. This might include:
-- Reporting issues.
-- Suggesting new features or improvements.
-- Guidelines for submitting pull requests.
+## Possible Improvements
 
-## Additional Notes
-- Mention your process of adding more images to the dataset.
-- Discuss challenges faced, such as dealing with images not conforming to labels, and how you addressed them.
-- Reflect on the model's performance and potential areas for improvement.
+Model Complexity: Experimenting with the addition or adjustment of layers in the CNN architecture might capture more complex features and improve accuracy.
 
+Transfer Learning: Leveraging pre-trained models as a starting point can increase performance, especially when dealing with limited training data.
