@@ -35,7 +35,7 @@ model.save('model_name.keras')
 
 ### Step 4
 ```bash
-# you have to be in the ..\image_classification_cnn_ml_model-main\bdcm_conv_nn_website directory
+# you have to be in the ..\bdcm_conv_nn_website directory
 pip install requirements.txt
 ```
 Load your model if you have made one. Pay attention to the file path. If you didn't train the model leave code as is.  
@@ -46,7 +46,7 @@ model = load_model('./model_name.keras')
 ### Step 5 
 Run the flask app and make predictions.
 ```bash
-# you have to be in the ..\image_classification_cnn_ml_model-main\bdcm_conv_nn_website directory
+# you have to be in the ..\bdcm_conv_nn_website directory
 flask run
 ```
 
