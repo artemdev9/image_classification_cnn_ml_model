@@ -17,7 +17,7 @@ I decided to use Convolutional Neural Networks (CNN) because they excel in image
 If you want to train the model yourself start at step 1, if you want to use the website and make predictions start at step 4.
 
 ### Step 1 
-Add the images in corresponding folders to train the ML model. The images folder has 4 folders: bicycles, cars, deers, mountains. Each of them has a txt file with the link to the database of images. Download the 4 databases and place them inside the folder.  
+Add the images in corresponding folders to train the ML model.
 
 
 ### Step 2
